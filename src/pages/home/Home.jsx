@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Home.scss"
+import React from "react";
+import "./Home.scss";
 const Home = () => {
   return (
     <div className="home-bgImg-container">
@@ -12,6 +12,6 @@ const Home = () => {
       </main>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

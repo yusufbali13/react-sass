@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Contact.scss"
+import React from "react";
+import "./Contact.scss";
 const Contact = () => {
   return (
     <div className="contact-bgImg-container">
@@ -24,6 +24,6 @@ const Contact = () => {
       </main>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./About.scss";
 
 const About = () => {
@@ -58,6 +58,6 @@ const About = () => {
       </main>
     </>
   );
-}
+};
 
-export default About
+export default About;
