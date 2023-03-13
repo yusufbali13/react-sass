@@ -11,7 +11,8 @@ const Navbar = () => {
             className="nav__link"
             style={({ isActive }) => {
               return { color: isActive ? "#ff652f" : "inherit" };
-            }}>
+            }}
+          >
             {" "}
             Home{" "}
           </NavLink>
@@ -22,7 +23,8 @@ const Navbar = () => {
             className="nav__link"
             style={({ isActive }) => {
               return { color: isActive ? "#ff652f" : "inherit" };
-            }}>
+            }}
+          >
             About Me
           </NavLink>
         </li>
@@ -32,7 +34,8 @@ const Navbar = () => {
             className="nav__link"
             style={({ isActive }) => {
               return { color: isActive ? "#ff652f" : "inherit" };
-            }}>
+            }}
+          >
             My Projects
           </NavLink>
         </li>
@@ -42,7 +45,8 @@ const Navbar = () => {
             className="nav__link"
             style={({ isActive }) => {
               return { color: isActive ? "#ff652f" : "inherit" };
-            }}>
+            }}
+          >
             Contact
           </NavLink>
         </li>
